@@ -1,0 +1,28 @@
+﻿body {
+    text-align: center;
+}
+
+form {
+    margin-top: 30vh;
+    display: inline-block;
+}
+
+#UsernameField, #UsernameField:focus {
+    background-color: red;
+    border-radius: 30px 0px 0px 30px;
+    padding: 15px 215px 15px 35px;
+    outline: none;
+    border: 0;
+}
+
+#UsernameFieldButton {
+    padding: 15px;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: 0px;
+    margin-left: -10px;
+    width: 100px;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 50px lightgrey;
+}
+

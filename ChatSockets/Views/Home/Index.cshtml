@@ -1,0 +1,20 @@
+﻿@model string
+@{
+    ViewData["Title"] = "Chat";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/chat.css" />
+</head>
+<div class="msg">
+    <div style="bottom:0;" id="msgs"></div>
+</div>
+<div class="line"></div>
+<div class="input-parrent">
+    <div class="input-username">
+        <input type="text" id="UsernameField" placeholder="Username.." />
+    </div>
+    <div class="input-msgs">
+        <input type="text" id="MessageField" placeholder="Message.." />
+    </div>
+</div>
+<script src="~/js/site.js"></script>
