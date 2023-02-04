@@ -13,7 +13,6 @@ namespace ChatSockets.Controllers
             _logger = logger;
         }
 
-
         [HttpGet]
         public IActionResult Index()
         {
